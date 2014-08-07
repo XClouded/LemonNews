@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_selector"
+        android:padding="5dip" >
+
+        <ImageView
+            android:id="@id/item_image"
+            android:layout_width="@dimen/rss_icon_width"
+            android:layout_height="@dimen/rss_icon_height"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/rss" />
+
+        <TextView
+            android:id="@id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/main_tab_loadingbar"
+            android:layout_toRightOf="@id/item_image"
+            android:textSize="20dip" />
+
+        <ImageButton
+            android:id="@id/item_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/item_title"
+            android:background="@drawable/button_move_bg"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@id/item_checkbox"
+            style="@style/main_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/item_title"
+            android:checked="false"
+            android:visibility="gone" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            layout="@layout/loadingbar" />
+
+        <ImageView
+            android:id="@id/new_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/new36" />
+    </RelativeLayout>
+
+</LinearLayout>

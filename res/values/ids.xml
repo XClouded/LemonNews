@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="main_sliding_container" type="id"/>
+    <item name="main_container" type="id"/>
+    <item name="main_sliding_image" type="id"/>
+    <item name="main_title_bar" type="id"/>
+    <item name="main_tab_refresh" type="id"/>
+    <item name="main_tab_list" type="id"/>
+    <item name="main_tab_loadingbar" type="id"/>
+    <item name="foot_text" type="id"/>
+    <item name="foot_net_text" type="id"/>
+    <item name="foot_net_btn" type="id"/>
+    <item name="foot_linear_progress" type="id"/>
+    <item name="foot_linear_net" type="id"/>
+    <item name="source_item_add" type="id"/>
+    <item name="main_listview" type="id"/>
+    <item name="main_list_foot" type="id"/>
+    <item name="main_gridview" type="id" />
+    <item name="new_tag" type="id"/>
+    <item name="item_title" type="id"/>
+    <item name="item_checkbox" type="id"/>
+    <item name="item_image" type="id"/>
+    <item name="item_subtitle" type="id"/>
+    <item name="item_move" type="id"/>
+    <item name="item_delete" type="id"/>
+    <item name="item_add" type="id"/>
+    <item name="item_time" type="id"/>
+    <item name="item_next_tag" type="id"/>
+    <item name="menu_home" type="id" />
+    <item name="menu_article_list" type="id" />
+    <item name="menu_content_center" type="id"/>
+    <item name="menu_setting" type="id"/>
+    <item name="menu_exit" type="id"/>
+    <item name="menu_refresh" type="id"/>
+    <item name="menu_about" type="id"/>
+    <item name="menu_open" type="id"/>
+    <item name="menu_subscribe" type="id"/>
+    <item name="menu_cancel_subscribe" type="id"/>
+    <item name="menu_search" type="id"/>
+    <item name="menu_markasread" type="id"/>
+    <item name="menu_delete" type="id" />
+    <item name="app_version" type="id"/>
+    <item name="custom_search_content" type="id"/>
+    <item name="custom_search_go" type="id"/>
+    <item name="custom_search_delete" type="id"/>
+    <item name="listview" type="id"/>
+    <item name="item_add_text" type="id"/>
+    <item name="sub_container" type="id"/>
+    <item name="next_item" type="id"/>
+    <item name="previous_item" type="id"/>
+    <item name="webview" type="id"/>
+    <item name="view_original_link" type="id"/>
+    <item name="search_tip_linear" type="id"/>
+    <item name="search_tip_text" type="id"/>
+    <item name="widget_block_content" type="id"/>
+    <item name="widget_btns" type="id"/>
+    <item name="widget_btn_up" type="id"/>
+    <item name="widget_btn_down" type="id"/>
+    <item name="widget_feed_content" type="id"/>
+    <item name="app_widget_time" type="id"/>
+    <item name="widget_line_right" type="id"/>
+    <item name="widget_line_left" type="id"/>
+    <item name="app_widget_img" type="id"/>
+    <item name="app_widget_currnetindex" type="id"/>
+
+</resources>

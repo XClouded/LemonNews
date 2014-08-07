@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="setting_text_size_entryvalue">
+        <item>@string/setting_text_size_entryvalue_1</item>
+        <item>@string/setting_text_size_entryvalue_2</item>
+        <item>@string/setting_text_size_entryvalue_3</item>
+        <item>@string/setting_text_size_entryvalue_4</item>
+    </array>
+    <string-array name="setting_text_size_entry">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+</resources>

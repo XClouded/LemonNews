@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@id/widget_block_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/widget_content_margin_left"
+            android:layout_marginTop="@dimen/widget_content_margin_top"
+            android:background="@drawable/widget_bg" >
+
+            <LinearLayout
+                android:id="@id/widget_btns"
+                android:layout_width="45dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="1.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginTop="1.0dip"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@id/widget_btn_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/widget_btn_up_d" />
+
+                <TextView
+                    android:id="@id/app_widget_currnetindex"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#ffe36100"
+                    android:textSize="11.0dip" />
+
+                <Button
+                    android:id="@id/widget_btn_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/widget_btn_down_d" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@id/app_widget_img"
+                android:layout_width="@dimen/widget_logo_size"
+                android:layout_height="@dimen/widget_logo_size"
+                android:adjustViewBounds="false"
+                android:layout_centerVertical="true"
+                android:layout_margin="5.0dip"
+                android:src="@drawable/widget_logo"
+                android:focusable="true"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@id/widget_line_left"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_toRightOf="@id/app_widget_img"
+                android:background="@drawable/widget_line" />
+
+            <TextView
+                android:id="@id/widget_line_right"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_toLeftOf="@id/widget_btns"
+                android:background="@drawable/widget_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5.0dip"
+                android:layout_toLeftOf="@id/widget_line_right"
+                android:layout_toRightOf="@id/widget_line_left" >
+
+                <TextView
+                    android:id="@id/widget_feed_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@id/app_widget_time"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="left|center_vertical"
+                    android:maxLines="@integer/widget_content_max_lines"
+                    android:ellipsize="end"
+                    android:textColor="@android:color/black"
+                    android:textSize="15.0sp" />
+
+                <TextView
+                    android:id="@id/app_widget_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="0.0dip"
+                    android:textColor="#ffe36100"
+                    android:textSize="11.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/widget_logo_size"
+        android:layout_height="@dimen/widget_logo_size"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/widget_logo"
+        android:visibility="gone" />
+
+</FrameLayout>

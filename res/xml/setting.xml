@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_category_view_title" >
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_text_size_setting_title"
+            android:entries="@array/setting_text_size_entryvalue"
+            android:entryValues="@array/setting_text_size_entry"
+            android:key="system_setting_textsize"
+            android:title="@string/pref_text_size_setting_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="system_setting_columnkey"
+            android:summary="@string/pref_volumn_guide_summary_text"
+            android:title="@string/pref_volumn_guide_setting_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_other_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="system_setting_auto_refresh"
+            android:summary="@string/pref_auto_refresh_summary_text"
+            android:title="@string/pref_auto_refresh_setting_title" />
+
+        <Preference
+            android:dialogTitle="@string/pref_clear_cache_title"
+            android:key="system_setting_clear_cache"
+            android:title="@string/pref_clear_cache_title" />
+        <Preference
+            android:key="system_setting_update"
+            android:title="@string/pref_check_update_title" />
+        <Preference
+            android:key="system_setting_about"
+            android:summary="@string/about_pref_summary_text"
+            android:title="@string/about_pref_key_title_text" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

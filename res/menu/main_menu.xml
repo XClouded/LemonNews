@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@id/menu_content_center"
+        android:icon="@drawable/ic_menu_center"
+        android:title="@string/content_center">
+    </item>
+    <item
+        android:id="@id/menu_search"
+        android:icon="@drawable/ic_menu_search"
+        android:title="@string/search">
+    </item>
+    <item
+        android:id="@id/menu_setting"
+        android:icon="@drawable/ic_menu_setting"
+        android:title="@string/setting">
+    </item>
+    <item
+        android:id="@id/menu_about"
+        android:icon="@drawable/ic_menu_about"
+        android:title="@string/about">
+    </item>
+    <item
+        android:id="@id/menu_exit"
+        android:icon="@drawable/ic_menu_quit"
+        android:title="@string/exit">
+    </item>
+
+</menu>

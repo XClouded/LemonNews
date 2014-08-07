@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@id/menu_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/my_subscribe">
+    </item>
+    <item
+        android:id="@id/menu_delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="@string/empty">
+    </item>
+    <item
+        android:id="@id/menu_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/refresh">
+    </item>
+    <item
+        android:id="@id/menu_markasread"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="@string/markasread">
+    </item>
+
+</menu>

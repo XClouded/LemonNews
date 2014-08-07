@@ -1,0 +1,6 @@
+INSERT INTO content_center VALUES('人民网国内新闻','','http://www.people.com.cn/rss/politics.xml','http://3gimg.qq.com/RSS/an_logo/xinlang.png',1,0,0,'root\体育');
+INSERT INTO content_center VALUES('新浪体育要闻汇总','','http://rss.sina.com.cn/roll/sports/hot_roll.xml','http://3gimg.qq.com/RSS/an_logo/xinlang.png',1,0,0,'root\体育');
+INSERT INTO content_center VALUES('新浪体育焦点新闻','','http://rss.sina.com.cn/news/allnews/sports.xml','http://3gimg.qq.com/RSS/an_logo/xinlang.png',1,0,0,'root\体育');
+INSERT INTO content_center VALUES('新浪意甲频道','','http://rss.sina.com.cn/sports/global/italy.xml','http://3gimg.qq.com/RSS/an_logo/xinlang.png',1,0,0,'root\体育');
+INSERT INTO content_center VALUES('新浪英超频道','','http://rss.sina.com.cn/sports/global/england.xml','http://3gimg.qq.com/RSS/an_logo/xinlang.png',1,0,0,'root\体育');
+INSERT INTO content_center VALUES('新浪西甲频道','','http://rss.sina.com.cn/sports/global/spain.xml','http://3gimg.qq.com/RSS/an_logo/xinlang.png',1,0,0,'root\体育');

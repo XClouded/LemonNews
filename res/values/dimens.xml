@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="grid_item_width">120dip</dimen>
+    <dimen name="grid_item_height">90dip</dimen>
+    <dimen name="rss_icon_width">70dip</dimen>
+    <dimen name="rss_icon_height">70dip</dimen>
+    <dimen name="arrow_cover_bottom_margin">60dip</dimen>
+    <dimen name="widget_height">100.0dip</dimen>
+    <dimen name="widget_content_margin_top">20.0dip</dimen>
+    <dimen name="widget_content_margin_left">10.0dip</dimen>
+    <dimen name="widget_logo_size">70.0dip</dimen>
+
+</resources>

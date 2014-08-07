@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_default"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bar"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" >
+
+        <TextView
+            android:id="@id/item_title"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="24dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/item_subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16dip" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line1"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="a1509a6f612274b"
+        ads:loadAdOnCreate="true"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" >
+
+        <WebView
+            android:id="@id/webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/background_light"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" />
+
+        <RelativeLayout
+            android:id="@id/main_tab_loadingbar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/background_light" >
+
+            <ProgressBar
+                style="@style/progressStyleMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminate="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/sub_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner_bg"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <ImageButton
+            android:id="@id/previous_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bottom_pre_bg"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@id/view_original_link"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/big_button"
+            android:drawableLeft="@drawable/ic_menu_original"
+            android:onClick="onClick"
+            android:text="@string/view_original"
+            android:textColor="@android:color/black"
+            android:textSize="22dip" />
+
+        <ImageButton
+            android:id="@id/next_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bottom_next_bg"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</LinearLayout>

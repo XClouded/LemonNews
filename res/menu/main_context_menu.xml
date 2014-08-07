@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@id/menu_open"
+        android:title="@string/open">
+    </item>
+    <item
+        android:id="@id/menu_cancel_subscribe"
+        android:title="@string/cancel_subscribe">
+    </item>
+    <item
+        android:id="@id/menu_refresh"
+        android:title="@string/refresh"/>
+
+</menu>
